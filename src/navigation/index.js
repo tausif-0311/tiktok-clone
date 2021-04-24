@@ -12,7 +12,7 @@ const RootNavigation = () => {
             <Stack.Navigator screenOptions={
                 { headerShown: false }
             }>
-                <Stack.Screen name="Home" component={HomeBottomNavigator} />
+                <Stack.Screen name="Search" component={HomeBottomNavigator} />
             </Stack.Navigator>
 
         </NavigationContainer>

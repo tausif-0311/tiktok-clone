@@ -33,7 +33,7 @@ const HomeBBottomTabNavigator = () => {
                 {
                     tabBarIcon: ({ color }) => (<AntDesign name={'search1'} size={24} color={color} />)
                 }
-            }></Tab.Screen>
+            } />
             <Tab.Screen name={'Upload'} component={Home} options={
                 {
                     tabBarIcon: ({ color }) => (<Feather name={'plus-square'} size={24} color={color} />)
@@ -48,7 +48,7 @@ const HomeBBottomTabNavigator = () => {
                 {
                     tabBarIcon: ({ color }) => (<Ionicons name={'person-outline'} size={24} color={color} />)
                 }
-            }></Tab.Screen>
+            } />
         </Tab.Navigator>
 
     );
